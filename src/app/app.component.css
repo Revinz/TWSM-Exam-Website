@@ -1,0 +1,18 @@
+#app {
+  position: fixed; /* Required to remove the y-axis scroll bar*/
+  overflow: hidden;
+
+  /*Size after after fixing Angular's default padding / margins */
+  width: calc(100% + 20px);
+  height: calc(100% + 30px);
+
+  background-color: var(--black);
+  text-align: center;
+}
+
+body {
+  /* Needs to be marked important otherwise it won't change the margins */
+  /* Removes Angular's default margin on the left side and top*/
+  margin: -8px !important;
+  margin-top: -25px !important;
+}

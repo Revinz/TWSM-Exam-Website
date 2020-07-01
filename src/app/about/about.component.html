@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+
+<div id="about">
+  <h1 id="title" class="title_about">About</h1>
+
+  <ul>
+    <li>
+      <button class="EmptyButton" (click)="OpenSection('Skills', $event)">
+        Skills
+      </button>
+    </li>
+
+    <li>
+      <button class="EmptyButton" (click)="OpenSection('Education', $event)">
+        Education
+      </button>
+    </li>
+
+    <li>
+      <button class="EmptyButton" (click)="OpenSection('Languages', $event)">
+        Languages
+      </button>
+    </li>
+  </ul>
+
+  <div>
+    <ul id="content"></ul>
+  </div>
+</div>

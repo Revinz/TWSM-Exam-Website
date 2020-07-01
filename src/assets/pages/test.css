@@ -1,0 +1,44 @@
+#app {
+  position: fixed; /* Required to remove the y-axis scroll bar*/
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+
+  text-align: center;
+}
+
+#divider {
+  height: 1px;
+  width: 350px;
+  border: solid var(--accent) 0px;
+  background-color: var(--accent);
+  border-radius: 100px;
+  display: inline-block; /* Centers the div */
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#title {
+  margin-top: 30vh;
+  margin-bottom: 0px;
+  color: var(--white);
+  font-size: 40px;
+  letter-spacing: 0.25em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: var(--white);
+  font-size: 14px;
+  letter-spacing: 0.25em;
+  font-style: italic;
+}
+
+body {
+  margin: -8px !important; /* Needs to be marked important otherwise it won't change the margins */
+}
+
+nav {
+  margin-top: 30px;
+}

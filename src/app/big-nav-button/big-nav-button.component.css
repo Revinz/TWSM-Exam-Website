@@ -1,0 +1,26 @@
+.EmptyButton {
+  color: var(--accent);
+  font-size: 15px;
+  transition: all 0.125s ease-in-out;
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+  letter-spacing: 0.2em;
+  border: solid var(--accent) 3px;
+  margin: 16px;
+  border-radius: 2px;
+  background-color: var(--black);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.EmptyButton:hover {
+  color: var(--accent);
+  transform: scale(1.1);
+}
+
+.EmptyButton.active {
+  background-color: var(--active);
+}

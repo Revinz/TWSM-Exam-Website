@@ -1,0 +1,17 @@
+#portfolio-gallery {
+  display: inline-flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5vh;
+  overflow-y: auto;
+}
+
+#img {
+  margin: 16px;
+  width: auto;
+  height: 300px;
+  border: solid var(--white) 7px;
+  border-radius: 5px;
+}

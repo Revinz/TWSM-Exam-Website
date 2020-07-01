@@ -1,0 +1,27 @@
+.lang-item {
+  height: 200px;
+  align-content: center;
+
+  background-color: var(--white);
+  padding: 25px;
+  border: solid var(--white) 3px;
+  border-radius: 3px;
+  margin: 15px;
+}
+
+.lang-item #img {
+  width: 12vw;
+  height: calc(200px / 2);
+}
+
+#mastery {
+  font-size: 30px;
+  background-color: var(--accent);
+  margin-top: 5px;
+  padding: 5px;
+}
+
+#name {
+  font-size: 20px;
+  margin-top: 15px;
+}

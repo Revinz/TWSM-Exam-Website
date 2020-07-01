@@ -1,0 +1,24 @@
+.title-about {
+  margin-top: 5% !important; /* Reduces the top margin from the original 'title' css */
+}
+
+#about {
+  text-align: center;
+  display: inline-block; /* Centers the content */
+}
+
+ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  list-style: none;
+}
+
+#content {
+  margin-top: 20px;
+  display: inline-flex; /*Centers the flexbox */
+  justify-content: center;
+  width: 75%;
+  min-width: 75%;
+}

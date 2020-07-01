@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+/*Angular's equivalent to ':root' */
+
+#title {
+  margin-bottom: 0px;
+  color: var(--white);
+  font-size: 40px;
+  letter-spacing: 0.25em;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,20 @@
+#FullpageImage {
+  /*Size */
+  height: 1080px;
+  min-width: 100%;
+
+  /* Center image */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  filter: blur(5px);
+  /* Always be at the bottom */
+  z-index: -1;
+}
+
+#Wrapper {
+  /* Remove overflow to remove scroll bars */
+  overflow: hidden !important;
+  filter: brightness(20%);
+}

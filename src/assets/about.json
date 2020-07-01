@@ -1,0 +1,67 @@
+{
+  "skills": [
+    {
+      "name": "C#",
+      "mastery": "★★★★☆",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png"
+    },
+    {
+      "name": "Java",
+      "mastery": "★★★★☆",
+      "img": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+    },
+    {
+      "name": "JavaScript",
+      "mastery": "★★★☆☆",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/1200px-Javascript-shield.svg.png"
+    },
+    {
+      "name": "Python",
+      "mastery": "★★★★☆",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+    },
+    {
+      "name": "Unity",
+      "mastery": "★★★★☆",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1280px-Unity_Technologies_logo.svg.png"
+    },
+    {
+      "name": "Karma",
+      "mastery": "★★☆☆☆",
+      "img": "https://xebialabs.com/wp-content/uploads/files/tool-chest/karma-350x340.jpg"
+    },
+    {
+      "name": "Jasmine",
+      "mastery": "★★★☆☆",
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Logo_jasmine.svg/1200px-Logo_jasmine.svg.png"
+    },
+    {
+      "name": "Arduino",
+      "mastery": "★★★☆☆",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/1024px-Arduino_Logo.svg.png"
+    }
+  ],
+
+  "languages": [
+    {
+      "name": "Danish",
+      "mastery": "Native",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1200px-Flag_of_Denmark.svg.png"
+    },
+    {
+      "name": "English",
+      "mastery": "Fluent",
+      "img": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
+    }
+  ],
+
+  "education": [
+    {
+      "name": "Aalborg University (Copenhagen)",
+      "shorthand": "AAU",
+      "degree": "Bachelor",
+      "study": "Medialogy",
+      "img": "https://media.glassdoor.com/l/231603/aalborg-university-office.jpg"
+    }
+  ]
+}

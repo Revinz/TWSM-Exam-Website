@@ -1,0 +1,8 @@
+/*Angular's equivalent to ':root' */
+
+:host {
+  --white: #f4fffd;
+  --black: #242424;
+  --accent: #d64343;
+  --active: rgba(145, 23, 31, 0.45);
+}
